@@ -26,4 +26,4 @@ conda activate safer_parks_utils-env
 To run the tests, please activate the environment, and from the home directory run `pytest`
 ---
 
-To use the Marimo notebooks: first, `cd` into the `development_notebooks` directory, and then run `marimo edit` (from inside the Conda environment).
+To use the Marimo notebooks: first, `cd` into the `development_notebooks` directory, and then run `marimo edit` (from inside the Conda environment). Note that these are for local development and treated as scratch; they will not run on your machine without example data saved under correct filenames.
