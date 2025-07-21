@@ -1,0 +1,3 @@
+input_file,output_dir,minx,miny,maxx,maxy,file_prefix,crs,columns_to_keep
+example_data/trees.geojson,example_output,-1.772833,53.797893,-1.703482,53.819777,peel_park_trees,27700,['geometry' 'osm_id']
+example_data/wy_crime.geojson,example_output,-1.772833,53.797893,-1.703482,53.819777,peel_park_crime,4326,['Longitude' 'Latitude' 'Location' 'Crime type']

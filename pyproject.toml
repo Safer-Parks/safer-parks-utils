@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safer_parks_utils"
+version = "0.1.0"
+description = "Simple Python utility functions for processing geojson files for the Safer Parks open dashboard"
+authors = [{name = "Maeve Murphy Quinlan"}]
+requires-python = ">=3.9"
+dependencies = [
+    "geopandas>=1.0.1",
+    "shapely>=2.0.0",
+    "pandas"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

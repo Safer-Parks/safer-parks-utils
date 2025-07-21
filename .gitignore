@@ -1,3 +1,10 @@
+# Specific to this project
+
+example_data/
+*.geojson
+
+# General Python project ignores
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

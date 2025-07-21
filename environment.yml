@@ -1,0 +1,21 @@
+name: safer_parks_utils-env
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python
+  - marimo # just for testing
+  - pytest
+  - blackd
+  - isort
+
+  # remove/modify these as needed
+  # - numpy
+  # - pandas
+
+  # keep this to install your Python package locally
+  - pip
+  - pip:
+    - --editable .
